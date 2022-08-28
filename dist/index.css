@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #5fc5ff;
+  color: white;
+  font-family: "Fugaz One", cursive;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.grid {
+  padding: 2rem;
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0;
+  outline: none;
+  border: none;
+  margin: 15px 15px 30px;
+  background: #3ebbf7;
+  border-bottom: 3px solid rgba(16, 91, 146, 0.5);
+  border-top: 3px solid rgba(255, 255, 255, 0.3);
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 8px 15px 10px;
+  box-shadow: 0 6px 0 #266b91, 0 8px 1px 1px rgba(0, 0, 0, 0.3),
+    0 10px 0 5px #12517d, 0 12px 0 5px #1a6b9a, 0 15px 0 5px #0c405e,
+    0 15px 1px 6px rgba(0, 0, 0, 0.3);
+  padding-bottom: 1rem;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: 120px 40px 40px;
+  align-items: center;
+}
+
+#pausar {
+  width: 40px !important;
+  height: 40px !important;
+  grid-column: 4;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background: none;
+}
+
+#pausar img{
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.info {
+  grid-column: 1;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0;
+  outline: none;
+  border: none;
+  margin: 15px 15px 30px;
+  background: #3ebbf7;
+  border-bottom: 3px solid rgba(16, 91, 146, 0.5);
+  border-top: 3px solid rgba(255, 255, 255, 0.3);
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 8px 15px 10px;
+  box-shadow: 0 6px 0 #266b91, 0 8px 1px 1px rgba(0, 0, 0, 0.3),
+    0 10px 0 5px #12517d, 0 12px 0 5px #1a6b9a, 0 15px 0 5px #0c405e,
+    0 15px 1px 6px rgba(0, 0, 0, 0.3);
+  padding-bottom: 1rem;
+}
+
+#pontuacao {
+  margin-left: 1rem;
+  text-overflow: ellipsis;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  color: none;
+}
+
+.info p {
+  margin: 0;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+  box-shadow: 0px 0px 0px 1px #12517d inset;
+}
+
+.deadzone {
+  display: none;
+}
+
+.game-button {
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  width: 230px;
+  font-family: "Carter One", sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 1px #0066a2, -2px 2px 1px #0066a2, 2px -2px 1px #0066a2,
+    -2px -2px 1px #0066a2, 0px 2px 1px #0066a2, 0px -2px 1px #0066a2,
+    0px 4px 1px #004a87, 2px 4px 1px #004a87, -2px 4px 1px #004a87;
+  border: none;
+  margin: 15px 15px 30px;
+  background: repeating-linear-gradient(45deg,
+      #3ebbf7,
+      #3ebbf7 5px,
+      #45b1f4 5px,
+      #45b1f4 10px);
+  border-bottom: 3px solid rgba(16, 91, 146, 0.5);
+  border-top: 3px solid rgba(255, 255, 255, 0.3);
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 8px 15px 10px;
+  box-shadow: 0 6px 0 #266b91, 0 8px 1px 1px rgba(0, 0, 0, 0.3),
+    0 10px 0 5px #12517d, 0 12px 0 5px #1a6b9a, 0 15px 0 5px #0c405e,
+    0 15px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.game-button:hover {
+  top: 2px;
+  box-shadow: 0 4px 0 #266b91, 0 6px 1px 1px rgba(0, 0, 0, 0.3),
+    0 8px 0 5px #12517d, 0 10px 0 5px #1a6b9a, 0 13px 0 5px #0c405e,
+    0 13px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.mid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.L {
+  background-color: #006ccd !important;
+}
+
+.I {
+  background-color: #00ff3c !important;
+}
+
+.O {
+  background-color: #e8d600 !important;
+}
+
+.T {
+  background-color: #9e00c1 !important;
+}
+
+.Z {
+  background-color: #cf0000 !important;
+}
